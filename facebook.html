@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+<style>
+#boy{
+    justify-content: space-around;
+    background-color: #305998;
+    min-height: 80px;
+}
+#boy1{
+    color: white;
+}
+#boy2{
+    color: white;
+}
+#girl{
+    justify-content: space-around;
+    background-color: #d8deea;
+    height: 400px;
+}
+#girl1{
+    color: #02224b;
+    font-weight: bolder;
+}
+#girl2{
+    color: #02224b;
+}
+
+</style>
+
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row" id="boy">
+                    <div class="col-md-4 pt-3" id="boy1">
+                        <h1>facebook</h1>
+                    </div>
+                    <div class="col-md-6" id="boy2">
+                        <form action=""  method="get">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label for="email">Email</label>
+                                        <input type="email" name="email">
+                                        <p><input type="checkbox" name="logged in">keep me logged-in</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <label>Password</label>
+                                    <input type="password" name="password">
+                                    <p><a href="#" style="text-decoration: none; color: white;">forgot password?</a></p>
+                                </div>
+                                <div class="col-md-4">
+                                    <button type="submit" class="mt-4" style="border:0px;">Log In</button>
+                                </div>
+                            </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="row pt-3" id="girl">
+                    <div class="col-md-4" id="girl1">
+                        <h5>Facebook helps you connect and share with <br> the people in your life</h5>
+                        <img src="image/facebook2012.jpg" alt="facebook connect">
+                    </div>
+                    <div class="col-md-4" id="girl2">
+                        <h5>Sign Up</h5>
+                        <p>It's free and always will be.</I></p>
+                        <form action="" method="post">
+                            <div class="row">
+                                <div class="col-md-12">
+                                   <div class="form-group">
+                                    <label for="firstname">First Name:</label>
+                                    <input type="text" name="firstname">
+                                   </div>
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <label for="lastname">First Name:</label>
+                                <input type="text" name="lastname">
+                            </div>
+                            <div>
+                                <label for="email">Your Email:</label>
+                                <input type="email" name="email">
+                            </div>
+                            <div>
+                                <label for="email">Re-enter Email:</label>
+                                <input type="email" name="email">
+                            </div>
+                            <div>
+                                <label for="password">New Password:</label>
+                                <input type="password" name="password">
+                            </div>
+                            <div>
+                                <label>I am:</label>
+                                <select>
+                                   <option value="select sex">Select Sex</option>
+                                   <option value="Male">Male</option>
+                                   <option value="Female">Female</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label>Birthday:</label>
+                                <input type="month" name="month">Month:
+                                <input type="day" name="day">Day:
+                                <input type="year" name="year">Year:
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
